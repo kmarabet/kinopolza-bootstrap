@@ -11,3 +11,35 @@
     font-size: 90%;
     letter-spacing: 3px;
 }
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #346270;
+}
+.nav-pills>li>a{
+    color: #fff;
+}
+.nav-pills>li>a:hover, .nav-pills>li>a:focus{
+    background-color: #346270;
+}
+.navbar-inverse {
+    padding: 1%;
+}
+
+@media (max-width: 767px){
+    .nav-pills>li {
+        float: none;
+    }
+    .nav-pills {
+        text-align: center;
+    }
+
+    .header h1 {
+        font-size: 99%;
+        letter-spacing: 5px;
+    }
+    .header {
+        text-align: center;
+        border-color: ;
+    }
+}
