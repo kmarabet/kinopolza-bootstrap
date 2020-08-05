@@ -35,11 +35,38 @@
     }
 
     .header h1 {
-        font-size: 99%;
+        font-size: 280%;
         letter-spacing: 5px;
     }
     .header {
         text-align: center;
-        border-color: ;
     }
+}
+
+.clear {
+    clear: both;
+    height: 63px;
+}
+
+.wrapper {
+    min-height: 100%;    
+}
+
+html, body {
+    height: 100%;
+}
+
+.footer {
+    color: #666;
+    background: #222;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid #000;
+}
+
+.footer a {
+    color: #999;
+}
+
+.footer a:hover {
+    color: #efefef;
 }
